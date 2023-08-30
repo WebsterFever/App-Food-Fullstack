@@ -1,0 +1,104 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 100px; */
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(50% 50% at 50% 50%, #fbbc05 0%, #ff8f3f 100%);
+}
+
+.containerForm {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.containerDiets {
+  display: flex;
+  gap: 30px;
+}
+
+.containerForm label {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.containerForm h2 {
+  font-size: 32px;
+}
+
+.containerDiets label {
+  color: #fff;
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTextForm {
+  width: 331px;
+  border: double #ff8f3f;
+  height: 31px;
+  border-radius: 97px;
+  padding: 0px 20px;
+  font-size: 14px;
+}
+
+.textAreaForm {
+  width: 331px;
+  border-radius: 30px;
+  border: double #ff8f3f;
+  resize: none;
+  padding: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  border: double #ffffff46;
+  background-color: #ff8f3f44;
+  padding: 10px;
+  box-shadow: 18px 39px 69px 4px rgba(255, 143, 63, 0.25);
+}
+
+.infoContainer h2 {
+  text-align: center;
+}
+
+.containerButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerButton button {
+  width: 331px;
+  height: 40px;
+  border-radius: 97px;
+  border: 1px solid #fff;
+  background: #ee803b;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.containerButton button:disabled {
+  background: #ee803b;
+  color: #ffffffba;
+}
+
+.containerLinkReceta a {
+  width: max-content;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}

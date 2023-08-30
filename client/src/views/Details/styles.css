@@ -1,0 +1,88 @@
+.containerDetails header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(50% 50% at 50% 50%, #fbbc05 0%, #ff8f3f 100%);
+}
+
+.containerInfoDetails {
+  display: flex;
+  border: 1px solid #ff8f3f;
+  align-items: center;
+}
+
+.containerInfoDetails p {
+  padding: 0 20px;
+}
+.resumeDetails {
+  border-right: 1px solid #ff8f3f;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ee803b;
+}
+
+.resumeDetails img {
+  object-fit: cover;
+  width: 400px;
+}
+
+.contentResume {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.contentResume ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 15px;
+}
+
+.contentResume li {
+  background: radial-gradient(50% 50% at 50% 50%, #fbbc05 0%, #ff8f3f 100%);
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.contentResume b,
+.contentResume a {
+  color: #ff8f3f;
+  text-decoration: none;
+}
+.contentResume a {
+  cursor: pointer;
+}
+
+.recipeTutorial {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.ingredients {
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-right: 150px;
+  border: 1px solid #fff;
+  padding-bottom: 20px;
+  background: #ee803b;
+  color: #fff;
+}
+
+.recipe {
+  border: solid rgb(14, 34, 58);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 1px solid #f3803b;
+  background: #fff;
+  color: #f3803b;
+}
